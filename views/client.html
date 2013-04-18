@@ -1,0 +1,96 @@
+<html>
+<head>
+<link rel="canonical" href="server.html"/>
+<script type="text/javascript" src="/js/jquery-1.8.3.min.js"></script>
+
+<!-- Bootsteap -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap-responsive.css" rel="stylesheet">
+<style type="text/css">
+	video {
+ 	 	width:100%;
+  		height:50%;
+	}
+
+	body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+	}
+
+	.sidebar-nav {
+        padding: 9px 0;
+	}
+
+	@media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+</style>
+
+</head>
+<body onload="start()">
+
+	<div class="container">
+
+	<div class="container-fluid">
+		<div class="row-fliud">
+			<div class="span6">
+				<div class="well sidebar-nav">
+					<ul id="servers" class="nav nav-list">
+						<li class="nav-header">Avalable Tables</li>
+					</ul>
+				</div>
+
+				<!--div id="clients"></div-->
+				<!--div id="ClientAddr" src="%CLIENTADDRESS%"-->
+				</div>
+			</div>
+			<div id="local" class="span10">
+				<div class="hero-unit">
+					<video id="remote-video" autoplay="autoplay"></video>
+				</div>
+			</div>
+		</div>
+
+		<div class="row-fliud">
+			
+		</div>
+	</div>
+</div>
+
+<br>
+
+<br><br>
+
+
+
+<br><br>
+<div class="container">
+	<div id="tracefield" style="height:50%;width:100%;border:1px solid red;font:16px/26px Georgia, Garamond, Serif;overflow:auto;"> </div>
+</div>
+
+<script src="/js/client.js" class="CLIENT" ></script>
+
+<script src="/js/tracer.js" ></script>
+
+	<script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap-transition.js"></script>
+    <script src="/js/bootstrap-alert.js"></script>
+    <script src="/js/bootstrap-modal.js"></script>
+    <script src="/js/bootstrap-dropdown.js"></script>
+    <script src="/js/bootstrap-scrollspy.js"></script>
+    <script src="/js/bootstrap-tab.js"></script>
+    <script src="/js/bootstrap-tooltip.js"></script>
+    <script src="/js/bootstrap-popover.js"></script>
+    <script src="/js/bootstrap-button.js"></script>
+    <script src="/js/bootstrap-collapse.js"></script>
+    <script src="/js/bootstrap-carousel.js"></script>
+    <script src="/js/bootstrap-typeahead.js"></script>
+
+</body>
+</html>
